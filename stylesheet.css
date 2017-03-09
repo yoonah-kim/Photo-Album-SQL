@@ -1,0 +1,412 @@
+#homepage {
+	padding: 40px;
+	background-image: url('img/bench.jpg'); /*image from http://alpha.wallhaven.cc/wallpaper/7110 */
+	background-position: center;
+	min-height: 700px;
+}
+
+body {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper {
+	padding: 80px 140px 80px 140px;
+	background-color: black;
+	min-height: 700px;
+}
+
+.header h3 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #F35F55;
+}
+
+.home_content {
+	padding: 80px 30px 20px 30px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+	color: white;
+	text-transform: uppercase;
+	line-height: 80px;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+h3 {
+	font-size: 40px;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 400;
+	margin-top: 0;
+	text-align: left;
+}
+
+#navlist a {
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	color: white;
+}
+
+.link {
+	display: inline-block;
+	float: left;
+	color: white;
+}
+
+.link a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#albums {
+	border: 2px #F35F55 solid;
+	width: 109px;
+	margin: 20px;
+	border-radius: 3px;
+	padding: 15px;
+	background-color: #F35F55;
+	color: white;
+	margin-left: 0;
+}
+
+#collection {
+	border: 2px #F35F55 solid;
+	width: 142px;
+	margin: 20px;
+	border-radius: 3px;
+	padding: 15px;
+	background-color: #F35F55;
+	color: white;
+}
+
+#login {
+	border: 2px #F35F55 solid;
+	width: 94px;
+	margin: 20px;
+	border-radius: 3px;
+	padding: 15px;
+	background-color: #F35F55;
+	color: white;
+}
+
+#navlist {
+	padding: 30px 10px 50px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+	color: #E8E8E8;
+}
+
+#navlist li {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #E8E8E8;
+}
+
+#navlist a {
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #E8E8E8;
+}
+
+#navlist a:link {
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #E8E8E8;
+}
+
+#navlist a:hover {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: white;
+	text-decoration: none;
+}
+
+#navlist a:visited {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	margin: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 2px;
+	background-color: #F35F55;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.logout a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	max-height: 280px;
+	padding: 1px;
+}
+
+.albums {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.albums a {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+.albums a:hover {
+	font-weight: bold;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #F35F55;
+}
+
+.albums a:active {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.createAlbum {
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 230px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.allAlbumForms {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	width: 270px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.uploadPhoto {
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.option {
+	width: 100px;
+	border-radius: 1px;
+	background-color: white;
+	border-bottom: 1px solid white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border: none;
+	letter-spacing: 1px;
+	color: black;
+	height: 25px;
+	margin: 5px;
+	margin-bottom: 0;
+}
+
+.input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 2px;
+	background-color: #F35F55;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.inputcaption {
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 2px;
+	background-color: white;
+	border-bottom: 1px solid white;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	margin-bottom: 0;
+	margin-right: 0;
+	letter-spacing: 1px;
+	color: black;
+	width: 100px;
+}
+
+.capop {
+	display: inline-block;
+}
+
+.inputimage {
+	text-align: center;
+	width: 160px;
+	margin: auto;
+}
+
+.inputAlbumName {
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 2px;
+	background-color: white;
+	border-bottom: 1px solid white;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+	letter-spacing: 1px;
+	color: black;
+	width: 100px;
+
+}
+
+form {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.search {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.search p {
+	width: 200px;
+	margin: 0;
+}
+
+.search .input {
+	margin-top: 10px;
+}
+
+.inputsearch {
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-radius: 2px;
+	background-color: white;
+	border-bottom: 1px solid white;
+	border: none;
+	padding: 5px;
+	margin: 10px;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+	color: black;
+	width: 150px;
+}
+
+.editForm {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.fullEdit {
+	display: inline-block;
+}
+
+#notclickimage {
+	display: inline-block;
+}
+
+.imageView {
+	padding: 0;
+}
+
+.imagesearch {
+	display: inline-block;
+}
+
+
+.albumView a {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+
+.albumView a:hover {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #F35F55;
+}
+
+.albumViewHeader {
+	text-align: center;
+	color: #F35F55;
+}
+
+#save {
+	margin: 10px;
+}
+
+.message {
+	color: #F35F55;
+}
